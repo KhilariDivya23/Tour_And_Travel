@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfect Destination | About Us</title>
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/about.css">
+    <script>
+        function displayDiv(name){
+            document.getElementById('aim-desc').style.display = 'none';
+            document.getElementById('staff-desc').style.display = 'none';
+            document.getElementById('experience-desc').style.display = 'none';
+            document.getElementById(name + '-desc').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+  <header class="header">
+        <div class="container">
+            <nav class="navbar">
+              <ul class="nav-items">
+                  <li class="logo"><img src="./img/logo.png" alt="Image not found"></li>
+                  <li class="nav-item"><a href="./contact.html">Contact Us</a></li>
+                  <li class="nav-item"><a href="./about.html">About Us</a></li>
+                  <li class="nav-item"><a href="./home.html">Home</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container about-us">
+        <div class="about-us-heading">We help you to explore the</div>
+        <div class="img-list">
+            <div class="img-list-1">
+                <div class="img-container img-1"><p>W</p></div>
+            </div>
+            <div class="img-list-2">
+                <div class="img-container img-2"><p>O</p></div>
+            </div>
+            <div class="img-list-3">
+                <div class="img-container img-3"><p>R</p></div>
+            </div>
+            <div class="img-list-4">
+                <div class="img-container img-4"><p>L</p></div>
+            </div>
+            <div class="img-list-5">
+                <div class="img-container img-5"><p>D</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="information">
+            <div class="info info-logo">
+                <p>PERFECT DESTINATION</p>
+            </div>
+            <div class="info about-info">
+                <nav class="navbar">
+                  <ul class="nav-items">
+                      <li class="nav-item"><button id="aim" onclick="displayDiv(this.id);">Aim</button></li>
+                      <li class="nav-item" ><button id="staff" onclick="displayDiv(this.id);">Staff</button></li>
+                      <li class="nav-item" ><button id="experience" onclick="displayDiv(this.id);">Experience</button></li>
+                  </ul>
+                </nav>
+                <div class="min-info" id="aim-desc">
+                    <h3 class="info-heading">Our Aim</h3>
+                    <p class="info-desc">We believe that tourism should help improve the satisfaction and experience of tourist. In every way possible, Vacation & Nightlife Planners PR is committed to the realization of this vision as we strive to be recognized by organizations and travelers</p>
+                    <ol>
+                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Multi-theme activities</em></li>
+                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Vacation and Nightlife planners</em></li>
+                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Competency-based expeditions</em></li>
+                    </ol>
+
+                </div>
+                <div class="min-info" id="staff-desc">
+                    <h3 class="info-heading">Our Staff</h3>
+                    <p class="info-desc">Our team of experts is passionate about travel and knows everything there is to know about the best destinations. Our travel agency is dedicated to providing you with the best possible service. We'll work with you to create a custom travel package that fits your budget and needs.</p>
+                    <ol>
+                        <li><i class="fa-solid fa-user"></i><em> ABC (Owner)</em></li>
+                        <li><i class="fa-solid fa-user"></i><em> XYZ (Co-founder)</em></li>
+                        <li><i class="fa-solid fa-user"></i><em> PQR (Specialist)</em></li>
+                    </ol>
+                </div>
+                <div class="min-info" id="experience-desc">
+                    <h3 class="info-heading">Our Experience</h3>
+                    <p class="info-desc">We at Tour My India aims at offering cut-edge services to our customers. Satisfied Customers are Happy Customers is our motto, and we work towards it. We also like to hear from them, regarding our services which keeps us motivated to enhance our services.</p>
+                    <ol>
+                        <li><i class="fa-solid fa-star"></i><em> 12+ Years of Experience</em></li>
+                        <li><i class="fa-solid fa-star"></i><em> 1780+ Trips</em></li>
+                        <li><i class="fa-solid fa-star"></i><em> 21788 Satisfied customers</em></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="icons">
+            <a href="#" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-media"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-media"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-media"><i class="fa-brands fa-linkedin"></i></a>
+            <p>Perfect Destination &#169;, All Rights Reserved</p>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
