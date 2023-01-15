@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.europe{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/europe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.thailand{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/thailand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.asia{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/asia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.italy{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/italy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.netherland{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/netherland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.uk{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/united_states.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.nav-items::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo img{
+    float: left;
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav-items li{
+    list-style-type: none;
+}
+
+.nav-items li a{
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.nav-item{
+    float: right;
+}
+
+.nav-items .nav-item a:hover{
+    /*border-bottom: 0.2rem solid #00A4B4;*/
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.section-bar{
+    position: absolute;
+    top: calc((0.5 * 100vh) * 0.5);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 300;
+    color: white;
+}
+
+.section-bar p em{
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+}
+
+.main-title{
+    width: 20%;
+    height: 100%;
+}
+
+.main-title p{
+    font-size: 1.5em;
+    text-align: center;
+    height: 30%;
+    padding: 6em 0 6em 0;
+    background: linear-gradient(to right, #ee0979 0%, #ff6a00 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main-info{
+    width: 40%;
+    height: 100%;
+    text-align: justify;
+    padding: 1.5em 0.7em;
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.msg{
+    color: rgb(54, 69, 79, 0.8);
+    font-size: 3.5rem;
+    margin: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.spots{
+    display: flex;
+    /*border: 2px solid #ee0979;*/
+    flex-wrap: wrap;
+    height: 80vh;
+    /*height: 200px !important;*/
+}
+
+.spot{
+    width: calc(100% / 3);
+    height: 100%;
+    /*border: 2px solid blue;*/
+    padding: 0 1em 0 1em;
+}
+
+.spot-img{
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.spot-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.spot-location{
+    width: 100%;
+    height: 10%;
+    padding: 5em 0 0 7em;
+
+}
+
+.spot-loc-name{
+    width: 100%;
+    height: 7%;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    background: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.spot-loc-country{
+    width: 100%;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.9);
+}
+
+.spot-desc{
+    width: 97%;
+    height: 50%;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: justify;
+    padding: 0 0 0 1rem;
+    line-height: 3rem;
+}
+
+.cost{
+    margin: 1rem 0 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.spot-desc a{
+    text-decoration: none;
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 2rem;
+    color: white;
+    background: linear-gradient(to right, #36D1DC 0%, #5e80d0 100%);
+}
+
+.spot-desc a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.spot-2 .spot-loc-name{
+    background: linear-gradient(to right, #cc2b5e 0%, rgba(143, 79, 155, 0.87) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.spot-2 a{
+    background: linear-gradient(to right, #cc2b5e 0%, rgba(143, 79, 155, 0.87) 100%);
+}
+
+.spot-3 .spot-loc-name{
+    background: linear-gradient(to right, #DCE35B 0%, #45B649 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.spot-3 a{
+    background: linear-gradient(to right,  #DCE35B 0%, #45B649 100%);
+}
+
+@media only screen and (max-width: 750px) {
+    *{
+        font-size: 47%;
+    }
+    .spots{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 60%;
+    }
+
+    .spot{
+        width: 100%;
+        height: 100%;
+        /*border: 2px solid blue;*/
+        /*padding: 0 1.5em 0 1.5em;*/
+        margin: 0 0 10rem 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .spot a{
+        width: 50%;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .spot-img{
+        height: 30rem; !important;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+}
+
+    .spot-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .spot-location{
+        width: 100%;
+        height: 10%;
+        padding: 5em 0 0 7em;
+
+    }
+
+    .spot-loc-name{
+        width: 100%;
+        height: 7%;
+        font-size: 2.5rem;
+        margin: 0 0 1rem 0;
+        background: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .spot-loc-country{
+        width: 100%;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(220, 220, 220, 0.9);
+    }
+
+    .spot-desc{
+        width: 97%;
+        height: 50%;
+        font-size: 4rem;
+        font-weight: 300;
+        text-align: justify;
+        padding: 0 0 0 1rem;
+        line-height: 3rem;
+    }
+
+    .cost{
+        margin: 1rem 0 1rem 0;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        float: left;
+        width: 100%;
+        /*border: 2px solid red;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        display: block;
+        text-align: center;
+        height: 5rem;
+        width: 5rem;
+        /*border: 2px solid white;*/
+    }
+
+    .header .nav-item{
+        margin-right: 1rem;
+        /*align-items: center;*/
+        /*border: 2px solid red;*/
+    }
+
+}
+
+
