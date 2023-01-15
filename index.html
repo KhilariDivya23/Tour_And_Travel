@@ -3,21 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Perfect Destination | About Us</title>
+    <title>Perfect Destination | Home</title>
     <link rel="icon" href="./img/logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/about.css">
-    <script>
-        function displayDiv(name){
-            document.getElementById('aim-desc').style.display = 'none';
-            document.getElementById('staff-desc').style.display = 'none';
-            document.getElementById('experience-desc').style.display = 'none';
-            document.getElementById(name + '-desc').style.display = 'block';
-        }
-    </script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+
 </head>
 <body>
-  <header class="header">
+    <header class="header">
         <div class="container">
             <nav class="navbar">
               <ul class="nav-items">
@@ -28,73 +22,140 @@
               </ul>
             </nav>
         </div>
+        <section class="section-bar">
+            <h1 class="site-name">PERFECT DESTINATION</h1>
+            <p class="description1">Are you ready to make your vacation memorable?</p>
+            <p class="description2">Perfect destination is ideal for family friendly holiday with endless options and adventures for all ages. It creates the perfect blend of old-world hospitality and cosmopolitan luxury and sophistication. The rich cultural tapestry, new experiences and adventures are sure to leave you captivated.</p>
+        </section>
     </header>
+    <div class="container short-heading">OUR DESTINATIONS</div>
 
-    <div class="container about-us">
-        <div class="about-us-heading">We help you to explore the</div>
-        <div class="img-list">
-            <div class="img-list-1">
-                <div class="img-container img-1"><p>W</p></div>
+    <div class="swiper mySwiper container">
+        <div class="swipe-items swiper-wrapper">
+
+        <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box">
+                    <img src="./img/europe.jpg" alt="Picture of seaside">
+                </div>
             </div>
-            <div class="img-list-2">
-                <div class="img-container img-2"><p>O</p></div>
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">EUROPE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                <button class="more"><a href="./europe.html" target="_blank">More</a></button></div>
+                </div>
+
+        </div>
+
+
+            <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box"><img src="./img/thailand.jpg" alt="Image not found"></div>
             </div>
-            <div class="img-list-3">
-                <div class="img-container img-3"><p>R</p></div>
-            </div>
-            <div class="img-list-4">
-                <div class="img-container img-4"><p>L</p></div>
-            </div>
-            <div class="img-list-5">
-                <div class="img-container img-5"><p>D</p></div>
+
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">THAILAND</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                    <button class="more"><a href="./thailand.html" target="_blank">More</a></button>
+                </div>
             </div>
         </div>
+
+
+            <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box">
+                    <img src="./img/asia.jpg" alt="Image not found">
+                </div>
+            </div>
+
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">ASIA</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                <button class="more"><a href="./asia.html" target="_blank">More</a></button>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box">
+                    <img src="./img/italy.jpg" alt="Image not found">
+                </div>
+            </div>
+
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">ITALY</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                    <button class="more"><a href="./italy.html" target="_blank">More</a></button>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box">
+                    <img src="./img/netherland.jpg" alt="Image not found">
+                </div>
+            </div>
+
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">NETHERLAND</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                    <button class="more"><a href="./netherland.html" target="_blank">More</a></button>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="swipe-item swiper-slide">
+            <div class="img-box">
+                <div class="min-img-box">
+                    <img src="./img/united_states.jpg" alt="Image not found">
+                </div>
+            </div>
+
+            <div class="description-box">
+                <div class="min-desc-box">
+                    <h3 class="heading">UNITED STATES</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dignissimos dolore eveniet, hic illo itaque, nemo nesciunt quaerat quia sapiente sunt temporibus tenetur voluptates voluptatibus. Accusantium animi illo repudiandae.</p>
+                    <button class="more"><a href="./united_states.html" target="_blank">More</a></button>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="container">
-        <div class="information">
-            <div class="info info-logo">
-                <p>PERFECT DESTINATION</p>
-            </div>
-            <div class="info about-info">
-                <nav class="navbar">
-                  <ul class="nav-items">
-                      <li class="nav-item"><button id="aim" onclick="displayDiv(this.id);">Aim</button></li>
-                      <li class="nav-item" ><button id="staff" onclick="displayDiv(this.id);">Staff</button></li>
-                      <li class="nav-item" ><button id="experience" onclick="displayDiv(this.id);">Experience</button></li>
-                  </ul>
-                </nav>
-                <div class="min-info" id="aim-desc">
-                    <h3 class="info-heading">Our Aim</h3>
-                    <p class="info-desc">We believe that tourism should help improve the satisfaction and experience of tourist. In every way possible, Vacation & Nightlife Planners PR is committed to the realization of this vision as we strive to be recognized by organizations and travelers</p>
-                    <ol>
-                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Multi-theme activities</em></li>
-                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Vacation and Nightlife planners</em></li>
-                        <li><i class="fa-sharp fa-solid fa-circle-dot"></i><em> Competency-based expeditions</em></li>
-                    </ol>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
 
-                </div>
-                <div class="min-info" id="staff-desc">
-                    <h3 class="info-heading">Our Staff</h3>
-                    <p class="info-desc">Our team of experts is passionate about travel and knows everything there is to know about the best destinations. Our travel agency is dedicated to providing you with the best possible service. We'll work with you to create a custom travel package that fits your budget and needs.</p>
-                    <ol>
-                        <li><i class="fa-solid fa-user"></i><em> ABC (Owner)</em></li>
-                        <li><i class="fa-solid fa-user"></i><em> XYZ (Co-founder)</em></li>
-                        <li><i class="fa-solid fa-user"></i><em> PQR (Specialist)</em></li>
-                    </ol>
-                </div>
-                <div class="min-info" id="experience-desc">
-                    <h3 class="info-heading">Our Experience</h3>
-                    <p class="info-desc">We at Tour My India aims at offering cut-edge services to our customers. Satisfied Customers are Happy Customers is our motto, and we work towards it. We also like to hear from them, regarding our services which keeps us motivated to enhance our services.</p>
-                    <ol>
-                        <li><i class="fa-solid fa-star"></i><em> 12+ Years of Experience</em></li>
-                        <li><i class="fa-solid fa-star"></i><em> 1780+ Trips</em></li>
-                        <li><i class="fa-solid fa-star"></i><em> 21788 Satisfied customers</em></li>
-                    </ol>
-                </div>
-            </div>
+    </div>
+
+
+    <div class="features container">
+        <div class="feature adventure">
+            <i class="fa-brands fa-canadian-maple-leaf fa-2x"></i>
+            <h2>Great Adventures</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </div>
-
+        <div class="feature lowcost">
+            <i class="fa-regular fa-dollar-sign fa-2x"></i>
+            <h2>Low Cost</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+        <div class="feature experience">
+            <i class="fa-solid fa-heart fa-2x" style="color: #00A4B4"></i>
+            <h2>Memorable Experience</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
     </div>
 
     <div class="footer">
@@ -109,5 +170,11 @@
     </div>
 
 
+
+
+
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
